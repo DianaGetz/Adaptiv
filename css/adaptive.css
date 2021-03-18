@@ -1,0 +1,536 @@
+/*1024-1170*/
+@media screen and (max-width: 1169px) {
+    #header-item {
+        margin: 0;
+    }
+
+    #header-container {
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #menu-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #menu-image {
+        max-width: 450px;
+    }
+
+    #menu-image img {
+        max-width: 100%;
+    }
+
+    #main-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #main-image {
+        max-width: 400px;
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #products-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #order {
+        flex-wrap: wrap;
+        max-width: 594px;
+        margin: 0 auto;
+    }
+
+    .order-products {
+        margin: 140px 15px 0 15px;
+    }
+
+    #section-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #registration {
+        margin-left: 80px;
+    }
+
+    #big-strawberry {
+        left: 3px;
+    }
+
+    #small-strawberry {
+        right: 25px;
+    }
+
+    #footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+
+    #header .telephone {
+        display: none;
+    }
+
+    #header-item {
+        margin-left: 103px;
+    }
+
+    #header-container {
+        justify-content: flex-start;
+    }
+
+    #menu-text {
+        margin-top: 74px;
+    }
+
+    #menu-info {
+        max-width: none;
+        order: 1;
+    }
+
+    #menu-image {
+        margin-left: 90px;
+        margin-top: -80px;
+        order: 2;
+    }
+
+    #menu {
+        padding-top: 75px;
+        padding-bottom: 62px;
+    }
+
+    #menu-container {
+        flex-direction: column;
+    }
+
+    #menu-btn .btn {
+        margin-top: 41px;
+    }
+
+    #menu-image img {
+        max-width: none;
+    }
+
+    #main-container {
+        flex-direction: column;
+    }
+
+    #main-info {
+        max-width: none;
+    }
+
+    #main-title {
+        max-width: 490px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #main-text {
+        margin-top: 61px;
+        max-width: none;
+        text-align: center;
+        width: 690px;
+    }
+
+    #main-image {
+        padding: 0;
+        margin: 40px auto 0 auto;
+        max-width: 300px;
+    }
+
+    #main-image img {
+        max-width: 100%;
+    }
+
+    #main-container {
+        justify-content: center;
+    }
+
+    #main-advantages {
+        margin: 0 auto 120px auto;
+        flex-wrap: wrap;
+        max-width: 510px;
+    }
+
+    .main-advantage {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .main-numeral {
+        margin: 0 auto;
+    }
+
+    #section {
+        padding-top: 98px;
+        padding-bottom: 0;
+    }
+
+    #section-image {
+        order: 2;
+        margin-top: 300px;
+    }
+
+    #registration {
+        margin: 0;
+    }
+
+    #registration-title {
+        width: 406px;
+    }
+
+    #registration {
+        order: 1;
+    }
+
+    #section-image {
+        max-width: 350px;
+    }
+
+    #section-image img {
+        max-width: 100%;
+    }
+
+    #big-strawberry {
+        max-width: 72px;
+        left: 350px;
+        top: 290px;
+    }
+
+    #small-strawberry {
+        right: 70px;
+        bottom: 465px;
+    }
+}
+
+/*425-560*/
+@media screen and (max-width: 560px){
+
+    #header-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #header-item {
+        margin: 0;
+        padding-top: 15px;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    #header-item a {
+        margin: 0 15px;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        position: relative;
+    }
+
+    #rights{
+        position: absolute;
+        bottom: -55px;
+        left: calc(50% - 78px);
+    }
+
+    #footer .telephone{
+        order: 1;
+        padding-top: 40px;
+    }
+
+    #insta{
+        order: 2;
+        padding-top: 40px;
+    }
+
+}
+
+    /*425-767*/
+@media screen and (max-width: 767px) {
+
+    #menu-title {
+        font-size: 32px;
+        width: 345px;
+    }
+
+    #menu-text {
+        margin-top: 40px;
+        font-size: 16px;
+        max-width: 315px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #menu-image {
+        max-width: 250px;
+        margin-left: 40px;
+        margin-top: 0;
+    }
+
+    #menu-container {
+        margin: 0 auto;
+        max-width: 580px;
+    }
+
+    #menu-image img {
+        width: 100%;
+    }
+
+    #menu-btn .btn {
+        margin-bottom: 38px;
+        margin-left: 50px;
+    }
+
+    #menu {
+        padding-bottom: 43px;
+    }
+
+    #main {
+        display: flex;
+    }
+
+    #main-container {
+        justify-content: center;
+    }
+
+    #main-title {
+        font-size: 30px;
+        width: 320px;
+    }
+
+    #main-text {
+        font-size: 16px;
+        width: 345px;
+        margin-top: 40px;
+    }
+
+    #main-advantages {
+        flex-wrap: wrap;
+        max-width: 345px;
+    }
+
+    .main-advantage {
+        width: 165px;
+        margin-top: 75px;
+    }
+
+    #main-advantages .main-numeral::before {
+        left: 60px;
+    }
+
+    .main-advantages-title {
+        font-size: 18px;
+    }
+
+    .main-advantages-text {
+        font-size: 13px;
+    }
+
+    #products-title {
+        font-size: 30px;
+    }
+
+    #order {
+        justify-content: center;
+    }
+
+    .order-products {
+        margin-top: 122px;
+    }
+
+    #section-image {
+        display: none;
+    }
+
+    #small-strawberry {
+        display: none;
+    }
+
+    #big-strawberry {
+        top: 130px;
+        left: calc(70% - 36px);
+    }
+
+    #section {
+        padding-top: 100px;
+        padding-bottom: 77px;
+    }
+
+    #registration {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    #registration-title {
+        width: auto;
+        font-size: 30px;
+    }
+
+    #registration-text {
+        font-size: 16px;
+        max-width: 100%;
+    }
+}
+
+/*375-424*/
+@media screen and (max-width: 424px) {
+
+    #header-item {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000db;
+        top: 0;
+        left: 0;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #header-item.open {
+        display: flex;
+    }
+
+    #header-container {
+        justify-content: space-evenly;
+    }
+
+    #burger svg {
+        fill: white;
+        width: 36px;
+        height: 36px;
+    }
+
+    #header-item a {
+        color: #eba8b1;;
+        margin: 15px 15px;
+    }
+
+    #header-item svg {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #eba8b1;;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #menu-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #menu-image {
+        margin: 0;
+    }
+
+    #main-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #main-advantages {
+        margin-bottom: 100px;
+    }
+
+    #products-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #products {
+        padding: 100px 0;
+    }
+
+    #section-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+
+/*320-374*/
+@media screen and (max-width: 374px) {
+    #menu-title {
+        font-size: 28px;
+        text-align: center;
+        width: auto;
+    }
+
+    #menu-text {
+        max-width: 300px;
+    }
+
+    #menu-btn .btn {
+        margin-left: 30px;
+    }
+
+    #main-title {
+        font-size: 28px;
+        width: auto;
+    }
+
+    #main {
+        justify-content: center;
+    }
+
+    #main-text {
+        width: 290px;
+    }
+
+    #main-image{
+        max-width: 250px;
+    }
+
+    #main-image img{
+        max-width: 100%;
+    }
+
+    #main-advantages {
+        justify-content: center;
+    }
+
+    #registration-text {
+        max-width: 290px;
+    }
+
+    #registration .btn1 input {
+        width: 250px;
+    }
+
+    #btn2 button {
+        width: 280px;
+    }
+
+}
+
+
+
+
+
+
+
+

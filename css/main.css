@@ -1,0 +1,429 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Extrabold;
+    src: url("../fonts/Gilroy-Extrabold.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: Tavolga-Free;
+    src: url("../fonts/tavolga-free.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: Tavolga-Free, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#header {
+    background-color: rgb(235, 168, 177);
+    padding: 36px 0 26px 0;
+}
+
+#header-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+#header-item {
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 328px 0 232px ;
+}
+
+#header-item a {
+    font-size: 14px;
+    font-family: "Gilroy-Medium", sans-serif;
+    color: rgb(119, 11, 29);
+    border-bottom: 2px solid transparent;
+}
+
+#header-item a:hover{
+    border-bottom:2px solid #821328 ;
+}
+
+.telephone {
+    font-size: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#menu {
+    background: #eba8b1;
+    color: rgb(255, 255, 255);
+    padding-top: 126px;
+    padding-bottom: 108px;
+}
+
+#menu-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu-info {
+    max-width: 585px;
+}
+
+#menu-title {
+    font-size: 55px;
+    line-height: 1.091;
+}
+
+#menu-text {
+    margin-top: 60px;
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 1.389;
+}
+
+.btn {
+    color: white;
+    text-align: center;
+    font-family: "Gilroy-Bold", sans-serif;
+    box-sizing: border-box;
+}
+
+#menu-btn .btn {
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    padding: 20px;
+    margin-top: 80px;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 240px;
+    display: inline-block;
+}
+
+#main {
+    padding-top: 119px;
+    background: #ffefef;
+}
+
+#main-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#main-info {
+    max-width: 475px;
+}
+
+#main-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+}
+
+#main-text {
+    margin-top: 60px;
+    max-width: 402px;
+    font-size: 18px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+}
+
+#main-image {
+    padding-top: 72px;
+}
+
+#main-advantages {
+    width: 100%;
+    margin: 114px 0 120px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-advantages .main-advantage {
+    align-items: center;
+}
+
+.main-numeral {
+    font-size: 60px;
+    font-family: "Gilroy-Extrabold", sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+    line-height: 108px;
+    text-align: center;
+}
+
+.main-advantages-title {
+    font-size: 20px;
+    font-family: "Gilroy-Extrabold", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 2.25;
+}
+
+.main-advantages-text {
+    max-width: 217px;
+    font-size: 15px;
+    font-family: "Gilroy-Medium", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+}
+
+#products {
+    background: #eba8b1;
+    padding: 120px 0 120px 0;
+}
+
+#products-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#products-title {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    line-height: 1.222;
+    text-align: center;
+}
+
+#order {
+    margin-top: 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.order-products {
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    width: 263px;
+    height: 229px;
+    position: relative;
+    z-index: 1;
+}
+
+.order-image {
+    position: absolute;
+    z-index: 2;
+    top: -60px;
+    left: calc(50% - 96px);
+}
+
+.order-title {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 26px;
+}
+
+.order-together {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.order-quantity {
+    font-size: 15px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.order-price {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.order-products .order-btn.btn {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 36px;
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    border: 0;
+    outline: 0;
+    width: 130px;
+    height: 50px;
+    line-height: 8px;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 20px 29px;
+}
+
+#section {
+    background: #ffefef;
+    padding: 98px 0 120px 0;
+}
+
+#section-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#registration {
+    margin-left: 119px;
+}
+
+#registration-title {
+    font-size: 45px;
+    color: rgb(51, 25, 7);
+}
+
+#registration-text {
+    margin-top: 41px;
+    font-size: 18px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    width: 400px;
+}
+
+#registration-mini-text1 {
+    margin-top: 48px;
+}
+
+.text-one {
+    font-size: 18px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(18, 10, 6);
+}
+
+#registration-mini-text2 {
+    margin-top: 40px;
+}
+
+#registration .btn1 input{
+    margin-top: 20px;
+    border: 1px solid rgb(130, 19, 40);
+    border-radius: 30px;
+    width: 270px;
+    padding: 22px 0 22px 25px;
+    background: #ffefef;
+
+    font-size: 15px;
+    font-family: "Gilroy-Bold", sans-serif;
+}
+
+#registration .btn1 input:focus{
+    outline: 0;
+}
+
+.btn1 input::placeholder{
+    color: #821328;
+}
+
+#btn2 button{
+    margin-top: 15px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    width: 295px;
+    padding: 21px 0;
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#btn2 button:hover{
+    cursor: pointer;
+}
+
+#footer {
+    background: #c0707c;
+    padding: 73px 0 62px 0;
+}
+
+#footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rights {
+    padding-top: 19px;
+    font-size: 12px;
+    font-family: "Gilroy-Regular", sans-serif;
+    color: rgb(227, 172, 180);
+}
+
+#insta {
+    text-align: center;
+}
+
+#insta svg {
+    width: 35px;
+    height: 35px;
+    fill: white;
+}
+
+#insta-text {
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#big-strawberry{
+    width: 82px;
+    position: absolute;
+    left: -8px;
+    top: 70px;
+}
+
+#small-strawberry{
+    width: 50px;
+    position: absolute;
+    right: 100px;
+    bottom: 145px;
+}
+
+#burger{
+    display: none;
+}
+
+#header-item svg{
+    display: none;
+}
